@@ -1,0 +1,66 @@
+% DUISC COVER PAGE - DO NOT ALTER
+
+% set page style for cover page
+\thispagestyle{coverpage}
+
+{\fontfamily{phv}\selectfont\small
+% force page style (no header footer) for this front sheet
+\begin{center}
+    \bfseries
+    SUMMATIVE ASSIGNMENT FRONT COVER SHEET
+\end{center}
+
+\definecolor{mygray}{gray}{0.95}
+
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.8}
+\begin{tabularx}{\textwidth}{|p{4cm}|X|}
+    \hline
+    \rowcolor{mygray}\textbf{Student ID} & \thestudentid \\
+    \hline
+    \rowcolor{mygray}\textbf{CIS Username} & \thestudentduousername \\
+    \hline
+    \rowcolor{mygray}\textbf{Programme} & \theprogrammetitle\\
+    \hline
+    \rowcolor{mygray}\textbf{Module} & \themoduletitle\\
+    \hline
+    \rowcolor{mygray}\textbf{Teaching Group} & \theteachinggroup\\
+    \hline
+    \rowcolor{mygray}\textbf{Tutor} & \thetutorname \\
+    \hline
+\end{tabularx}
+
+\vspace{0.5cm}
+\begin{tabularx}{\textwidth}{|p{4cm}|X|}
+    \hline
+    \textbf{Assignment Title} & \theassignmentcode \\
+    \hline
+    \textbf{Assignment Deadline} & \thesubmissiondate \\
+    \hline
+\end{tabularx}
+
+\vspace{0.5cm}
+It is very important that any work you present as yours must in fact be your own work, and not taken from another place or done by another person. Cheating, collusion (working together with another person on an assessment which is not intended to be collaborative) and copying from unacknowledged sources (plagiarism) are all serious offences and must be avoided.
+
+\vspace{0.5cm}
+\fbox{
+\parbox{0.97\linewidth}{
+\textbf{DEFINITION OF ACADEMIC IMPROPRIETY}\\
+Academic impropriety is a term that covers cheating, attempts to cheat, plagiarism, collusion and any other attempts to gain an unfair advantage in assessments. Assessments include all forms of written work, presentations and all forms of examination. Academic impropriety, in any form, is a serious offence and the penalties imposed would reflect this.}
+}
+
+\vspace{0.5cm}
+\textbf{DECLARATION}\\
+By entering my Student ID below I confirm that this piece of work is a result of my own work except where it forms an assessment based on group project work. In the case of a group project, the work has been prepared in collaboration with other members of the group. Material from the work of others not involved in the project has been acknowledged and quotations and paraphrases suitably indicated. Furthermore, I confirm that I understand the definition of Academic Impropriety that is used by Durham University International Study Centre.
+
+\vspace{0.5cm}
+\begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \rowcolor{mygray}Student ID: \thestudentid & Date: \theassignmentdeadline\\
+    \hline
+\end{tabularx}
+
+}
+
+% set page style back to default
+\pagestyle{default}

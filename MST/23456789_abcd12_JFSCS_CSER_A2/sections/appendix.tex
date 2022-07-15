@@ -1,0 +1,16 @@
+\clearpage
+\appendix % starts the appendix sections
+\renewcommand{\appendixpage}{\normalsize\textbf{Appendices}} % change the default style of 
+
+\appendixpage % make the Appendices title appear on the page
+\counterwithin{figure}{section} % make figures follow appendix numbering
+
+% this is the title for this part of your appendix
+\section{Python code: full listing}
+\label{app:app-1}
+\lstinputlisting[style=python-code,caption=Automatic Accountant Solution]{listings/automatic_accountant_solution.py}
+
+\newpage
+\section{Csv files}
+\label{app:app-2}
+\lstinputlisting[style=console-output,caption=test\_graph.csv]{listings/test_graph.csv}

@@ -1,0 +1,29 @@
+% standard figure
+% use [hb] to try to keep figure in place, or at bottom of page
+\begin{figure}[hb]
+    \centering
+	\includegraphics[width=\linewidth]{figures/field_1.png}
+	\caption{Magnetic field around a conductor}
+	\label{fig:example-fig-1}
+\end{figure}
+
+% two sub-figures side-by-side
+\begin{figure}[hb]
+    \centering
+    
+    \begin{subfigure}[t]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/field_1.png}
+    \caption{current coming out of the paper}
+    \end{subfigure}
+    ~ % non-breaking space - use blank line here for top-and-bottom
+    \begin{subfigure}[t]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/field_2.png}
+    \caption{current going in to the paper}
+    \end{subfigure}
+
+    \caption{Magnetic field around a conductor}
+    \label{fig:example-fig-2}
+    
+\end{figure}

@@ -1,0 +1,52 @@
+% STUDYGROUP/DUISC/STEM
+% ASSIGNMENT REPORT TEMPLATE
+% (c) Jeff Davidson 2020-10-28
+
+% LOAD CUSTOM CLASS - DO NOT REMOVE THIS COMMAND
+% serif fonts are required to meet IEEE standards and clearly render variables and equations
+\documentclass{jmd_duisc_report} % computer modern (LaTeX default)
+%\documentclass[tm]{jmd_duisc_report} % times
+
+% PARAMETERS FOR THIS REPORT - COMPLETE AS REQUIRED
+% these parameters are used to create the cover page, title page, headers and footers
+\department{DUISC STEM}
+\programmetitle{IFY Computer Science}
+\moduletitle{Computer Science with Extended Research}
+\tutorname{Chris Roberts}
+\teachinggroup{JFSCS\_CSER}
+\assignmentcode{F\_CSER\_J\_A2: }
+\assignmenttitle{Project: Minimum Connector Problem}
+\assignmentdeadline{30/07/2021}
+\studentid{23456789}
+\studentduousername{abcd12}
+\submissiondate{30/07/2021}
+\usepackage{graphicx}
+% SET PAGE STYLES - DO NOT REMOVE THIS COMMAND
+\makepagestyles 
+
+% BEGIN MAIN DOCUMENT
+\begin{document}
+
+% make front cover sheet - do not alter
+\include{cover/cover-page}
+
+
+% make title page - do not alter
+\include{sections/titlepage}
+
+% MAIN BODY SECTIONS - PUT YOUR CONTENT HERE
+\input{sections/describe_the_system}
+\input{sections/create_a_solution}
+\input{sections/test_and_validate}
+\input{sections/summarise_and_evaluate}
+
+% BIBLIOGRAPHY - REQUIRED IEEE STYLE
+\bibliographystyle{IEEEtran}
+% add entries to the references.bib file and use the \vite{} command in your document
+\bibliography{references}
+
+
+% APPENDICES (if required)
+\input{sections/appendix.tex}
+
+\end{document}

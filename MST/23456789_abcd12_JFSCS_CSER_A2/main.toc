@@ -1,0 +1,8 @@
+\babel@toc {british}{}
+\contentsline {section}{\numberline {1}Describe the System}{2}{section.1}%
+\contentsline {section}{\numberline {2}Create a Solution}{2}{section.2}%
+\contentsline {section}{\numberline {3}Test and Validate your Code}{7}{section.3}%
+\contentsline {section}{\numberline {4}Summarise and Evaluate}{7}{section.4}%
+\contentsline {section}{\numberline {5}References}{8}{section.5}%
+\contentsline {section}{\numberline {A}Python code: full listing}{9}{appendix.A}%
+\contentsline {section}{\numberline {B}Csv files}{11}{appendix.B}%
